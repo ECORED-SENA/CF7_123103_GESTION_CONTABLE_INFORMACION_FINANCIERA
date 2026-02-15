@@ -265,7 +265,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'xyz xyz',
           cargo: 'Líder del ecosistema',
           centro: 'Dirección General',
         },
@@ -303,6 +303,12 @@ export default {
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
+          cargo: 'Desarrollador <i>full stack</i>',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cielo Damaris Ángulo Rodríguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

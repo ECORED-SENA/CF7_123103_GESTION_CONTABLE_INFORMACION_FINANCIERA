@@ -7,7 +7,7 @@
         span 1
       h1 Instrumentos financieros: activos, pasivos e instrumentos de patrimonio
     .bg-gradient-1
-      .row.caja-text-img-tema1.align-items-center.mx-0.mb-0(style="background-color: #8454EE")
+      .row.caja-text-img-tema1.align-items-center.mx-0.mb-0(style="background-color: #003F62")
         .col-xl-auto
           figure(data-aos="fade-up").d-none.d-xl-block
             img(src="@/assets/curso/tema1/img-1.png", alt="" style="max-width: 100px").m-auto
@@ -142,7 +142,7 @@
       .mx-auto.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-9.png", alt="", style="max-width: 472px").mx-auto.mb-4.ps-lg-4
 
-    .row.fondo-slider.mb-5.ajuste-espacios-movil(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-bg-table.jpg')})`}")
+    .row.fondo-slider.mb-5.ajuste-espacios-movil(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-bg-table.png')})`}")
       .ajuste-slider
         SlyderA(tipo="b")
           .col-lg-8.mb-4.col-xs-12.mx-auto
@@ -247,16 +247,16 @@
     
     .row.mb-5.m-0.ajuste-espacios-movil
       .col-lg-6.espacio__cajas_movil
-        .ajuste-caja-text-bloque4.h-100(data-aos="flip-left" style="background-color: #BCE0FC")
+        .ajuste-caja-text-bloque4.h-100(data-aos="flip-left" style="background-color: #CBE7E8")
           .col
             figure.mb-3
               img(src='@/assets/curso/tema1/img-10.svg', alt='T' style="max-width: 95px").m-auto
             .row.mb-4.ajuste-espacios-movil.text-center
               .col.ajuste-h4
-                h4.mb-0(style="background-color: #EDF7FE")  Costo amortizado
+                h4.mb-0(style="background-color: ")  Costo amortizado
             p.mb-0 Es el importe al que inicialmente fue valorado un pasivo financiero, menos los pagos de principal que se hubieran producido, menos los intereses correspondientes a los períodos calculados con la técnica del tipo de interés efectivo. (Supercontable Sage, s.f p. 9).
       .col-lg-6.espacio__cajas_movil
-        .ajuste-caja-text-bloque4.h-100(data-aos="flip-left" style="background-color: #BCE0FC")
+        .ajuste-caja-text-bloque4.h-100(data-aos="flip-left" style="background-color: #CBE7E8")
           .col
             figure.mb-3
               img(src='@/assets/curso/tema1/img-11.svg', alt='' style="max-width: 95px").m-auto
@@ -276,7 +276,7 @@
       .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img-12.png" style="max-width: 502px").mx-auto
       .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
-        p.mb-4.p-4(style="background-color: #E6DCFB") Es cualquier pasivo que represente una obligación contractual de entregar dinero u otro activo financiero a otra entidad o de intercambiar activos financieros o pasivos financieros con otra entidad o un contrato que sea liquidado utilizando los instrumentos de patrimonio propio de la entidad, debe ser medido al costo amortizado utilizando la técnica del interés efectivo, sin embargo, si es para negociar, incluidos los instrumentos derivados, se mide a valor razonable con cambios en el estado de resultados. (Instrumentos financieros NIC 32 s.f p. 9).
+        p.mb-4.p-4(style="background-color: #CBE7E8") Es cualquier pasivo que represente una obligación contractual de entregar dinero u otro activo financiero a otra entidad o de intercambiar activos financieros o pasivos financieros con otra entidad o un contrato que sea liquidado utilizando los instrumentos de patrimonio propio de la entidad, debe ser medido al costo amortizado utilizando la técnica del interés efectivo, sin embargo, si es para negociar, incluidos los instrumentos derivados, se mide a valor razonable con cambios en el estado de resultados. (Instrumentos financieros NIC 32 s.f p. 9).
         p #[b Valor razonable:] es la intermediación efectiva que se hace a través de la oferta y demanda de forma libre, dicho de otra forma, es la interacción de un comprador y un vendedor, que se obligan y comprometen a transar una cantidad de bien determinando un precio y unas condiciones específicas en un mercado libre.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -313,7 +313,7 @@
         h3 Revelación
 
     .mb-5
-      .row.caja-text-img-tema1.align-items-center.mx-0.mb-0(style="background-color: #8454EE")
+      .row.caja-text-img-tema1.align-items-center.mx-0.mb-0(style="background-color: #003F62")
         .col-xl-auto
           figure(data-aos="fade-up").d-none.d-xl-block
             img(src="@/assets/curso/tema1/img-1.png", alt="" style="max-width: 100px").m-auto
@@ -336,7 +336,7 @@
           | La empresa Contable SAS, adquiere un préstamo para desarrollar un proyecto de expansión, por $200.000.000 con una tasa de interés sobre el préstamo pactado en un 2,5 % el interés pactado, 2,5 % es el costo financiero que debe asumir por el préstamo recibido.
       .mx-auto.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-14.svg", alt="", style="max-width: 505px").mx-auto.mb-4.mb-lg-0.ps-lg-4 
-    p.p-4.px-lg-5.mb-4(style="background-color: #DDEFFD")
+    p.p-4.px-lg-5.mb-4(style="background-color: #CBD8DF")
       | #[b Ejemplo.]
       br
       br
@@ -438,7 +438,7 @@
           .col.ajuste-h4
             h4.mb-0 Provisiones:
         p Son obligaciones en las cuales no hay certeza en cuanto al monto ni en cuanto a la fecha para su cancelación.
-        p.p-4.mb-4(style="background-color: #E6DCFB")
+        p.p-4.mb-4(style="background-color: #CBE7E8")
           | #[b Ejemplo.]
           br
           br
@@ -452,7 +452,7 @@
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.p-4.mb-4(style="background-color: #DDEFFD") El emisor de un instrumento financiero lo clasificará en el momento de su reconocimiento como un pasivo financiero, un activo financiero o un instrumento de patrimonio de conformidad con el acuerdo contractual que protocoliza el instrumento. Una forma de distinguir un pasivo financiero de un instrumento de patrimonio es que exista una obligación contractual que recae sobre cualquiera de las partes de entregar activos o intercambiar pasivos y activos de manera desfavorable para el emisor.
+        p.p-4.mb-4(style="background-color: #CBD8DF") El emisor de un instrumento financiero lo clasificará en el momento de su reconocimiento como un pasivo financiero, un activo financiero o un instrumento de patrimonio de conformidad con el acuerdo contractual que protocoliza el instrumento. Una forma de distinguir un pasivo financiero de un instrumento de patrimonio es que exista una obligación contractual que recae sobre cualquiera de las partes de entregar activos o intercambiar pasivos y activos de manera desfavorable para el emisor.
         p Por ejemplo, si se trata de una acción preferencial, esta será reconocida como un pasivo financiero si el emisor está obligado a reembolsar por una cantidad acordada.
 
         p En el caso de un instrumento con opción de venta, es decir, que el tenedor debe devolverlo al emisor a cambio de efectivo u otro activo se reconoce como un pasivo financiero.
@@ -552,7 +552,7 @@
 
     p.mb-5 Contabilizar las operaciones derivadas.
 
-    .row.fondo-slider.mb-5.ajuste-espacios-movil(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-bg-table.jpg')})`, backgroundSize: 'cover'}")
+    .row.fondo-slider.mb-5.ajuste-espacios-movil(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-bg-table.png')})`, backgroundSize: 'cover'}")
       .ajuste-slider
         SlyderA(tipo="b")
           .d-flex.flex-wrap.col-xl-11.mx-auto
@@ -811,7 +811,7 @@
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.p-4.mb-4(style="background-color: #F3F0EA") #[b Ejemplo:]
+        p.p-4.mb-4(style="background-color: #CBD8DF") #[b Ejemplo:]
           br
           br
           |La sociedad contable SAS consultores adquiere un préstamo para compra de una propiedad inmobiliaria, por un valor de $128.000.000, le descuentan $400.000 para gastos de estudio del crédito. La tasa pactada es del 18 % EA, con pago a 5 cuotas anuales iguales.

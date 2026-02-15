@@ -27,7 +27,7 @@
       h2 2.1 Reconocimiento, medición, presentación, revelación
     
     .fondo-slider(style="background: linear-gradient(0deg, rgba(0,0,0,0) 30%, rgba(243,240,234,1) 30%, rgba(243,240,234,1) 80%, rgba(0,0,0,0) 100%);")
-      .row.caja-text-img-tema1.align-items-center.mx-0.mb-0.py-3(style="background-color: #8454EE")
+      .row.caja-text-img-tema1.align-items-center.mx-0.mb-0.py-3(style="background-color: #003F62")
         .col-xl-auto
           figure(data-aos="fade-up").d-none.d-xl-block
             img(src="@/assets/curso/tema1/img-1.png", alt="" style="max-width: 100px").m-auto
@@ -45,21 +45,21 @@
 
         .row.mb-5.m-0.ajuste-espacios-movil
           .col-lg-4.espacio__cajas_movil
-            .ajuste-caja-text-bloque4.h-100.px-4(data-aos="flip-left" style="background-color: #E2DACC")
+            .ajuste-caja-text-bloque4.h-100.px-4(data-aos="flip-left" style="background-color: #CBE7E8")
               .col
                 figure.mb-3
                   img(src='@/assets/curso/tema2/img-3.svg', alt='' style="max-width: 105px").m-auto
                 p.text-center.fw-bold 01
                 p.text-center Si los instrumentos de patrimonio se emiten antes de que la entidad reciba el efectivo u otros recursos, la entidad presentará el importe por cobrar como una compensación al patrimonio en su estado de situación financiera, no como un activo.
           .col-lg-4.espacio__cajas_movil
-            .ajuste-caja-text-bloque4.h-100.px-4(data-aos="flip-left" style="background-color: #E2DACC")
+            .ajuste-caja-text-bloque4.h-100.px-4(data-aos="flip-left" style="background-color: #CBE7E8")
               .col
                 figure.mb-3
                   img(src='@/assets/curso/tema2/img-3.svg', alt='' style="max-width: 105px").m-auto
                 p.text-center.fw-bold 02
                 p.text-center Si la entidad recibe el efectivo u otros recursos antes de que se emitan los instrumentos de patrimonio, y no se puede requerir a la entidad el reembolso del efectivo o de los otros recursos recibidos, la entidad reconocerá el correspondiente incremento en el patrimonio en la medida de la contraprestación recibida.
           .col-lg-4.espacio__cajas_movil
-            .ajuste-caja-text-bloque4.h-100.px-4(data-aos="flip-left" style="background-color: #E2DACC")
+            .ajuste-caja-text-bloque4.h-100.px-4(data-aos="flip-left" style="background-color: #CBE7E8")
               .col
                 figure.mb-3
                   img(src='@/assets/curso/tema2/img-3.svg', alt='' style="max-width: 105px").m-auto
@@ -97,7 +97,7 @@
           br
           |A 31 de diciembre del año 0, el valor razonable del paquete de acciones es de $125.000.000 y el valor razonable de la opción es de $1.600.000.
 
-    .row.fondo-slider.mb-5.ajuste-espacios-movil(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-bg-table.jpg')})`, backgroundSize: 'cover'}")
+    .row.fondo-slider.mb-5.ajuste-espacios-movil(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-bg-table.png')})`, backgroundSize: 'cover'}")
       .ajuste-slider
         SlyderA(tipo="b")
           .d-flex.flex-wrap.col-xl-11.mx-auto
